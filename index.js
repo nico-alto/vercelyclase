@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 app.get('/ejemplo', (req, res) => {
-    res.end('Llegaste ejemplo');
+    res.end('Llegaste ejemplo de Vercel');
 });
 app.get('/usuarios', (req, res) => {
     res.end('Llegaste usuarios');
