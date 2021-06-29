@@ -1,23 +1,22 @@
 {
-  "name": "vercelyclase",
+  "name": "Ejercicio1_Formidable",
   "version": "1.0.0",
-  "description": "Aprendiendo con Vercel",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nico-alto/vercelyclase.git"
-  },
   "keywords": [],
-  "author": "",
+  "author": "Hack Academy",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nico-alto/vercelyclase/issues"
-  },
-  "homepage": "https://github.com/nico-alto/vercelyclase#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "mysql2": "^2.2.5",
+    "nunjucks": "^3.2.3",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.2"
   }
 }
